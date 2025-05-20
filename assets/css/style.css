@@ -5,4 +5,8 @@
     .top-navbar{
         box-shadow: 0 0 50px gray;
     }
+    .display-flex{
+        display: flex;
+        align-items: center;
+    }
 }
