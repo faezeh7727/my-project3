@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
      <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/assets/util.css">
@@ -49,7 +49,7 @@
     </button >
     <!--search input-->
 </div>
-<div class="row col s12 m6 l8">
+<div class="row col s12 m6 l8 m-b-0">
         <div class="input-field col s12">
           <input  id="search" type="text" class="validate">
           <label for="disabled"><i class="material-icons pos-relative top-7 ">search</i>
@@ -58,8 +58,133 @@
         </div>
         <div class="col s12 m4 l2"></div>
      </section>     
+     <!--user list-->
+     <section id="users-list-section" class="row m-b-0">
+      <ul class="collapsible hide-on-med-and-up">
+    <li class="users-list-item">
+      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2  ">arrow_drop_down_circl</i>faezeh</div>
+      <div class="collapsible-body">
+        <div class="p-all-5">
+<span class="f-bold">username:</span>
+<span>faeze7727</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">email:</span>
+          <span>gfaeze561@gmail.com</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">address:</span>
+          <span>andimeshk-khozestan</span>
+        </div>
+        <div class="p-all-5 flex-l-m">
+        <span class="f-bold">action:</span>
+        <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+        </div>
+      </div>
+    </li>
+    <li class="users-list-item">
+      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2  ">arrow_drop_down_circl</i>fatima</div>
+      <div class="collapsible-body">
+        <div class="p-all-5">
+<span class="f-bold">username:</span>
+<span>fatima17</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">email:</span>
+          <span>fatima61@gmail.com</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">address:</span>
+          <span>dezfull-khozestan</span>
+        </div>
+        <div class="p-all-5 flex-l-m">
+        <span class="f-bold">action:</span>
+        <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+        </div>
+      </div>
+    </li>
+    <li class="users-list-item">
+      <div class="collapsible-header"><i class="material-icons purple-text lighten-2 users-list-arrow-icon trans-0-2  ">arrow_drop_down_circl</i>milad</div>
+      <div class="collapsible-body">
+        <div class="p-all-5">
+<span class="f-bold">username:</span>
+<span>milad27</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">email:</span>
+          <span>miladv561@gmail.com</span>
+        </div>
+        <div class="p-all-5">
+          <span class="f-bold">address:</span>
+          <span>ahvaz-khozestan</span>
+        </div>
+        <div class="p-all-5 flex-l-m">
+        <span class="f-bold">action:</span>
+        <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+        </div>
+      </div>
+    </li>
+  </ul>
+        <!--users list desktop size-->
+        <div class="hide-on-med-and-down show-on-medium-and-up container">
+          <table class="striped centered highlight">
+        <thead>
+          <tr>
+            <th>#</th>
+              <th>Name</th>
+              <th>userName</th>
+              <th>email</th>
+              <th>address</th>
+              <th>action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>milad</td>
+            <td>milad27</td>
+            <td>mmilad27@gmail.com</td>
+            <td>dezfull-khozestan</td>
+            <td>
+              <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>faeze</td>
+            <td>faeze7727</td>
+            <td>gfaeze@gmail.com</td>
+            <td>andimeshk-khozestan</td>
+            <td>
+              <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>fatima</td>
+            <td>fatima17</td>
+            <td>fatima@gmail.com</td>
+            <td>ahvaz-khozestan</td>
+          <td>
+              <i class="material-icons m-r-5 m-l-5 red-text">delete_forever</i>
+        <i class="material-icons m-r-5 m-l-5 orange-text darken-3">edit</i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+            
+        </div>
+
+     </section>
 
  <script src="/assets/materialize/js/materialize.min.js"></script>
 <script src="/assets/js/main.js"></script>
+<script src="/assets/js/users.js"></script>
 </body>
 </html>

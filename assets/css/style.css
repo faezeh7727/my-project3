@@ -10,3 +10,15 @@
         align-items: center;
     }
 }
+.users-list-item.active .users-list-arrow-icon{
+    transform: rotate(180deg);
+}
+.users-list-item.active , .users-list-item.active .collapsible-header{
+    background-color: lch(95.44% 0.63 256.2);
+}
+.striped{
+    background-color: lch(95.44% 0.63 256.2) ;
+}
+table.highlight > tbody > tr:hover {
+  background-color: #ebd3f0;
+}
