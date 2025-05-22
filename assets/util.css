@@ -2291,7 +2291,7 @@
 .dis-inline-block {display: inline-block;}
 .dis-flex {
 	display: -webkit-box;
-	display: -webkit-flex;
+	display: -webkit-flex;F
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
