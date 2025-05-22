@@ -10,6 +10,10 @@
         align-items: center;
     }
 }
+#top_actions_section{
+    display: flex;
+    align-items: center;
+}
 .users-list-item.active .users-list-arrow-icon{
     transform: rotate(180deg);
 }
